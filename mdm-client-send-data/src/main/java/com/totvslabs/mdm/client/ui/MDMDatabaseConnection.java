@@ -38,7 +38,7 @@ public class MDMDatabaseConnection extends PanelAbstract {
 		super(1, 16, " MDM Database Parameters");
 
 		this.labelMDMServerURL = new JLabel("Server URL: ");
-		this.textMDMServerURL = new JTextField("https://localhost:8443/mdm/", 20);
+		this.textMDMServerURL = new JTextField("https://totvslabs.fluigdata.com/mdm/", 20);
 		this.labelMDMTenantId = new JLabel("Subdomain: ");
 		this.textMDMTenantId = new JTextField("totvslabs");
 		this.labelMDMDatasourceId = new JLabel("Datasource ID: ");
